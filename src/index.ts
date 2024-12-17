@@ -1,5 +1,3 @@
-import { init } from './init'
-import { LDReducer } from './reducer'
-
-export const launchDarklyReducer = () => LDReducer
-export { init }
+// biome-ignore lint/performance/noBarrelFile: <explanation>
+export { init } from './init'
+export { reducer } from './reducer'

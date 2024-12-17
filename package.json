@@ -4,8 +4,8 @@
   "description": "A library to integrate launch darkly with react redux",
   "main": "lib/index.js",
   "scripts": {
-    "build:esm": "bun build src/index.ts --outdir lib/esm --target browser --format esm",
-    "build:cjs": "bun build src/index.ts --outdir lib/cjs --target browser --format cjs",
+    "build:esm": "bun build src/index.ts --outdir lib/esm --target browser --format esm --minify",
+    "build:cjs": "bun build src/index.ts --outdir lib/cjs --target browser --format cjs --minify",
     "build:types": "bun run tsc --outDir lib/types",
     "build": "bun run build:esm && bun run build:cjs"
   },
