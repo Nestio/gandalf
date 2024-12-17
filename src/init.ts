@@ -13,7 +13,7 @@ const {
 // Generate a unique identifier for the user
 const uuid = crypto.randomUUID()
 
-const errorUrl = 'https://github.com/Nestio/gandalf/docs/errors.md'
+const errorUrl = 'https://github.com/Nestio/gandalf/blob/main/docs/errors.md'
 
 export function init({
     ldClient = null,
